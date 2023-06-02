@@ -6,7 +6,7 @@
 ## Midterm
 There are 8 questions, a total of 130 points!
 
-## Final project
+## 110-2 Final project
 Proposal: https://www.youtube.com/watch?v=VcP_-W6acJI
 
 Final demo: https://www.youtube.com/watch?v=5gzGbDEWvbQ
@@ -40,9 +40,29 @@ keyword letters for the message.
 3. Finally, break these ciphertext and recover to the plaintext.
 
 ## Quiz 4
+In this assignment, we will learn using Markov chain methods to attack classical columnar transposition ciphers automatically.
+The steps to solve it are as follows:
+1. Using the number of vowels to detect ciphertext rectangles (In English approximately 40% of plaintext consists of vowels).
+2. Using plaintext bigrams and trigrams to calculate conditional probabilities for Markov decision processing (MDP).
+3. Using MDP to recover columnar transposition ciphers.
+
 ## Quiz 5
+In this quiz, you will need to implement a program that takes a 16-byte number as input and find a different number with the same 16 MSB of the MD5 value.
+(hint: hashlib is your best friend)
+- Bonus: 為何 primitive polynomial 都是奇數項？
+
 ## Quiz 6
+You will need to implement a python program that reads the ciphertext from a file named "ciphertext.txt" and save the plaintext into a file named "plaintext.txt"
+A template will be given and you can follow the template or design your own MCMC
+- For more detail, please reference the given template
+- Reference text is war_and_peace.txt
+
 ## Quiz 7
+1. Please write a program based on Berlekamp–Massey algorithm to find the shortest linear feedback shift register (LFSR) for the given sequence down below.
+2. Find the sequence generation rule of 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610...
+3. Extra credit: Use Berlekamp–Massey algorithm to find out the sequence rule of  0, 1, 1, 2, 3, 5, 8, 13, 21, 34...
+
+
 
 
 
